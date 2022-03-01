@@ -1,0 +1,43 @@
+body {
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#selections,
+#retry-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    gap: 2vh;
+}
+
+#score-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header {
+    position: relative;
+    /*change to fixed later;*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+}
